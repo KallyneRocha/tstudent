@@ -51,9 +51,9 @@ def realizar_teste_t(configuracao1, configuracao2):
 
 comparacoes = [
     ('roleta', 'torneio'),
-    ('uniforme', 'doisPontos'),
+    ('uniforme', 'dois_pontos'),
     ('mutacao1', 'mutacao5'),
-    ('elitismo', 'somenteFilhos')
+    ('elitismo', 'somente_filhos')
 ]
 
 for config1, config2 in comparacoes:
